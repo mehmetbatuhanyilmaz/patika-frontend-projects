@@ -7,4 +7,4 @@ Patika Front End Programı Mezuniyet Projesi
 
 # Katkıda Bulunanlar
 ---
-Lütfen Katkıda bulunan arkadaşlar buraya uygun formatta kullanıcı adınlarını eklesinler :)
+Lütfen Katkıda bulunan arkadaşlar buraya uygun formatta kullanıcı adınlarını eklesinler  :)
