@@ -18,5 +18,5 @@ Patika Front End Programı Mezuniyet Projesi
 2. Proje için Photoshoptan Şema çalışması yapıldı.
 3. <br/>
 <img alt="photoshopsheme" src="./img/E-Commerce Deneme.jpg" 
-     style="float: left; width:450px; height:500px;" />
+     style="float: left; width:650px; height:500px;" />
 
