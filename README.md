@@ -7,7 +7,6 @@ Patika Front End Programı Mezuniyet Projesi
 
 # Katkıda Bulunanlar
 ---
-# Mehmet Batuhan Yılmaz
-===
-# Ogün Demirkıran
-===
+ Mehmet Batuhan Yılmaz
+ Ogün Demirkıran
+
