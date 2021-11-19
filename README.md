@@ -16,5 +16,6 @@ Patika Front End Programı Mezuniyet Projesi
 ---
 1. Proje konusu belirlendi (e-commerce clothes)
 2. Proje için Photoshoptan Şema çalışması yapıldı.
-<img alt="photoshopsheme" src="./img/E-Commerce Deneme.jpg">
+<img alt="photoshopsheme" src="./img/E-Commerce Deneme.jpg" 
+     style="float: left; margin-right: 500px;" />
 
