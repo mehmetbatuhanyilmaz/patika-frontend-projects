@@ -14,7 +14,6 @@ Patika Front End Programı Mezuniyet Projesi
 - Ogün Demirkıran 👨🏻‍💻
 
 ---
-
 # Proje Yapım Süreci
 
 ---
