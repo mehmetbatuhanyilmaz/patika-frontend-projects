@@ -10,7 +10,7 @@ Patika Front End Programı Mezuniyet Projesi
 
 ---
 
-- ## Mehmet Batuhan Yılmaz 👨🏻‍💻
+- Mehmet Batuhan Yılmaz 👨🏻‍💻
 - Ogün Demirkıran 👨🏻‍💻
 
 ---
