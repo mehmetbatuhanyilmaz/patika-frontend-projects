@@ -7,9 +7,9 @@ Patika Front End Programı Mezuniyet Projesi
 
 # Katkıda Bulunanlar
 ---
- - Mehmet Batuhan Yılmaz 👨🏻‍💻 github.com/mehmetbatuhanyilmaz
+ - Mehmet Batuhan Yılmaz 👨🏻‍💻 <link src="github.com/mehmetbatuhanyilmaz">Batuhan</link>
   ---
- - Ogün Demirkıran 👨🏻‍💻 github.com/ogundemirkiran
+ - Ogün Demirkıran 👨🏻‍💻 <link src="github.com/ogundemirkiran">Ogün</link>
  ---
  
 # Proje Yapım Süreci
