@@ -16,7 +16,7 @@ function Mockapi() {
       // always executed
     });
 
-  return <div>Mockapi</div>;
+  return <div></div>;
 }
 
 export default Mockapi;
