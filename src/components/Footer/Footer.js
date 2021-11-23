@@ -12,7 +12,7 @@ function Footer() {
       
       <nav className="footer">
         <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-          Tüm Hakları Saklıdır - Kraft.co 
+          Tüm Hakları Saklıdır | Copyright ©  - Kraft.co 
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
