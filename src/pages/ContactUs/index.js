@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../../App.css';
 import "./contact-us.css";
 
@@ -9,8 +8,7 @@ function Contact() {
 
   return (
     <>
-    <h1  className="contact-us "></h1>
-    <div className="contactdiv">
+    <div className="contactdiv" style={{ backgroundImage: "url(/images/img-4.jpg)" }}>
       
       <div className="contactinfodiv">
         <h2>Hakkımızda</h2>

@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       
-      <nav className="footer">
+      <footer className="footer">
         <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
           Tüm Hakları Saklıdır | Copyright ©  - Kraft.co 
           <svg
@@ -43,7 +43,7 @@ function Footer() {
        </ul>
       
       
-      </nav>
+      </footer>
       
    
     </>
