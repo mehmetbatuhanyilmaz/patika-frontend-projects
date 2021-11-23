@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin-top: 0px;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
@@ -8,7 +8,6 @@
 .home,
 .products,
 .contact-us,
-.sign-up,
 .basket,
 .favorites {
   display: flex;
@@ -26,16 +25,10 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  
 }
 
-.services {
-  background-image: url('./images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+
 
 .products {
   background-image: url('./images/img-3.jpg');

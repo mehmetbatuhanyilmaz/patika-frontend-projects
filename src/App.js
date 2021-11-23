@@ -11,8 +11,6 @@
 
 // export default App;
 
-/*  Kanka bu kısımda hata veriyor bende ayrı çalışmada da kayıtlı problem yok commit ediyorum  */
-
 import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
@@ -22,9 +20,11 @@ import Products from "./pages/Products";
 import ContactUs from "./pages/ContactUs";
 import Basket from "./pages/Basket";
 import Favorites from "./pages/Favorites";
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
+    <>
     <div>
       <Navbar />
       <Routes>
@@ -34,7 +34,10 @@ function App() {
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/basket" element={<Basket />} />
       </Routes>
+      <Footer/>
     </div>
+    
+    </>
   );
 }
 

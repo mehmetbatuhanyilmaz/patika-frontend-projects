@@ -6,10 +6,10 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
+ 
   return (
     <>
-      <nav className="navbartop"></nav>
+      
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           Kraft.co
