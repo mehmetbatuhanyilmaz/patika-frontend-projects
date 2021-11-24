@@ -4,7 +4,9 @@ import "../../App.css";
 export default function Basket() {
   return (
     <>
-      <h1 className="basket"></h1>
+     <div style={{ backgroundImage: "url(images/img-2.jpg)" }}>
+
+     </div>
     </>
   );
 }

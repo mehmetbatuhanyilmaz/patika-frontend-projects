@@ -30,7 +30,7 @@ function Navbar() {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Anasayfa
+              Home
             </Link>
           </li>
 
@@ -40,7 +40,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Ürünler
+              Products
             </Link>
           </li>
 
@@ -50,7 +50,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Hakkımızda - İletişim
+              About - Contact Us
             </Link>
           </li>
 
@@ -60,7 +60,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Favoriler{" "}
+              Favorites{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -80,7 +80,7 @@ function Navbar() {
 
           <li className="nav-item">
             <Link to="/basket" className="nav-links" onClick={closeMobileMenu}>
-              Sepet{" "}
+              Basket{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

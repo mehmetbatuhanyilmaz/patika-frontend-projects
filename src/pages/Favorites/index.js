@@ -2,6 +2,11 @@ import React from 'react';
 import '../../App.css';
 
 export default function Favorites() {
-  return <h1 className='favorites'></h1>
-  
+  return (
+    <>
+     <div style={{ backgroundImage: "url(images/img-7.jpg)" }}>
+
+     </div>
+    </>
+  );
 }

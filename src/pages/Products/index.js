@@ -2,5 +2,11 @@ import React from 'react';
 import '../../App.css';
 
 export default function Products() {
-  return <h1 className='products'></h1>;
+  return (
+    <>
+     <div style={{ backgroundImage: "url(images/img-3.jpg)" }}>
+
+     </div>
+    </>
+  );
 }

@@ -12,7 +12,7 @@ function Footer() {
       
       <footer className="footer">
         <Link to="/" className="footer-logo" onClick={closeMobileMenu}>
-          Tüm Hakları Saklıdır | Copyright ©  - Kraft.co 
+        All Rights Reserved | Copyright ©  - Kraft.co 
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -26,16 +26,16 @@ function Footer() {
        <ul className={click ? "foot-menu active" : "foot-menu"}>
          <li></li>
        <li className="foot-item">
-       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Gizlilik Politikası |</Link> </li>
+       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Privacy Policy |</Link> </li>
 
        <li className="foot-item">
-       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Çerezlerin Kullanımı |</Link></li>
+       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Use of Cookies |</Link></li>
 
        <li className="foot-item">
-       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Satış ve Para İadesi |</Link></li>
+       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Sales and Refunds |</Link></li>
 
        <li className="foot-item">
-       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Site Haritası |</Link></li>
+       <Link to="/" className="foot-links" onClick={closeMobileMenu}> Sitemap |</Link></li>
        
        
        

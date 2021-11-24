@@ -5,14 +5,17 @@ import "./contact-us.css";
 function Contact() {
 
 
+  
 
   return (
     <>
-    <div className="contactdiv" style={{ backgroundImage: "url(/images/img-4.jpg)" }}>
+    
+    <div  style={{ backgroundImage: "url(/images/img-4.jpg)" }}>
+    <div className="contactdiv">
       
       <div className="contactinfodiv">
-        <h2>Hakkımızda</h2>
-        <p> Kraft.co Clothes and Formal Wear firmamız 2021 yılında Kodluyoruz ve Patika.dev'in katkılarıyla birlikte  Front End Developer M. Batuhan Yılmaz ve Ogün Demirkıran tarafından React Js kullanılarak geliştirilmiştir. ☺ </p>
+        <h2>Contact Us</h2>
+        <p> Kraft.co Clothes and Formal Wear company was developed in 2021 by Front End Developer M. Batuhan Yılmaz and Ogün Demirkıran with their contributions Kodluyoruz ve Patika.dev , using React Js. ☺ </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         
       </div>
@@ -31,12 +34,12 @@ function Contact() {
 
 <form>
   <label>
-    <input className="formTasarim" type="text" name="name" placeholder="Adınızı Giriniz" />
+    <input className="formTasarim" type="text" name="name" placeholder="Please Enter Your Name" />
   </label>
   <label>
-    <input className="formTasarim" type="text" name="name" placeholder="E-Mail Giriniz" />
+    <input className="formTasarim" type="text" name="name" placeholder="Please Enter Your EMail" />
   </label>
-  <textarea className="yazimAlani" placeholder="Bize Ulaşın ♥ ">
+  <textarea className="yazimAlani" placeholder="Contact Us ♥ ">
   
 </textarea>
 
@@ -47,6 +50,7 @@ function Contact() {
         
 
         </div>
+    </div>
     </div>
     </>
   );
