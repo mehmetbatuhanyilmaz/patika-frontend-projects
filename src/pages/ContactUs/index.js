@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
     
-    <div  style={{ backgroundImage: "url(/images/img-4.jpg)" }}>
+    <div style={{ backgroundImage: "url(/images/img-4.jpg)"}}>
     <div className="contactdiv">
       
       <div className="contactinfodiv">
