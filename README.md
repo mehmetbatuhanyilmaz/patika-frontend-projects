@@ -27,3 +27,4 @@ Patika Front End Programı Mezuniyet Projesi
 3. Ortak Repo açılıp takım arkadaşları tarafından Forklanıp Proje Component yapısı karar verildi.
 
 4. Dizin yapıları oluşturuldu Mockapi.io servisi kuruldu ve axios ile ilk veriler çekildi.
+5. Belirli çalışmalar yapıldı Pages alanları biçimlendirildi ve Mentor Hamza Kaya ile görüşülüp hatalar düzeltildi.
