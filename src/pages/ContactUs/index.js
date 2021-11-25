@@ -1,16 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import "./contact-us.css";
-
+import image from "../../images/iletisim.jpeg"
 function Contact() {
-
-
-  
-
   return (
     <>
     
-   <div style={{backgroundImage: "url(images/iletisim.jpeg)"}}>
+   <div style={{backgroundImage: `url(${image})`}}>
     <div className="contactdiv">
       
       <div className="contactinfodiv">

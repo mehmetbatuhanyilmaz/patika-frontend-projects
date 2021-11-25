@@ -13,8 +13,7 @@ function Cards() {
         setProduct(res.data);
       });
     }, 1000);
-  }, []);
-
+  }, []); 
   if (product === "") {
     return (
       <div className="loadingIcon">
