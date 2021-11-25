@@ -1,82 +1,72 @@
-
-
-.contactdiv{
-
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    gap: 1rem;
-    max-width: 900px;
-    margin: 0 auto;
-   
+.contactdiv {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
 }
 
-.contactinfodiv{
-    padding: 3rem 1rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-    background-color: blanchedalmond;
-    opacity:85%;
+.contactinfodiv {
+  padding: 3rem 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  background-color: blanchedalmond;
+  opacity: 85%;
 }
-.contactinfodiv h2{
-    text-align: center;
-    font-size: 2rem;
+.contactinfodiv h2 {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .contactmapdiv {
-    padding: 3rem 1rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    background-color: blanchedalmond;
-    opacity:85%;
+  padding: 3rem 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: blanchedalmond;
+  opacity: 85%;
 }
 
-
-.formTasarim{
-    width: 40%;
-    float: left;
-    width: 350px;
-    height: 30px;
-    border: 1px solid #888267 ;
-    margin-bottom: 10px;
-    width: 350px;
-   
-
+.formTasarim {
+  width: 40%;
+  float: left;
+  width: 350px;
+  height: 30px;
+  border: 1px solid #888267;
+  margin-bottom: 10px;
+  width: 350px;
 }
-.yazimAlani{
-
-    width: 40%;
-    float: left;
-    width: 350px;
-    height: 200px;
-    border: 1px solid #888267 ;
-    margin-bottom: 10px;
-    
-
-
+.yazimAlani {
+  width: 40%;
+  float: left;
+  width: 350px;
+  height: 200px;
+  border: 1px solid #888267;
+  margin-bottom: 10px;
 }
-.harita{
-    width: 50%;
-    float: right;
+.harita {
+  width: 50%;
+  float: right;
 }
 
-.button{
-    width: 350px;
-    height: 30px;
-    border: 1px solid ;
-    background-color: #888267;
-   color: #b3ae9b;
-   text-align: center;
-   font-weight: bold;
-   margin-bottom: 10px;
+.button {
+  width: 350px;
+  height: 30px;
+  border: 1px solid;
+  background-color: #888267;
+  color: #b3ae9b;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.button:hover{
-    background-color: #576e86;
-    border-radius: 0; 
+.button:hover {
+  background-color: #576e86;
+  border-radius: 0;
 }
