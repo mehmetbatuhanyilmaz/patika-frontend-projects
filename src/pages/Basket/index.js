@@ -9,7 +9,7 @@ export default function Basket() {
   return (
     <>
 
-     <div style={{ backgroundImage: "url(images/img-2.jpg)" }}>
+     <div>
      <div className="basket">
         <div className="container mb-5">
           <div className="row ">
