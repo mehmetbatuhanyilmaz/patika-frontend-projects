@@ -1,0 +1,64 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 534px;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+  display: inline-block !important;
+  margin: 30px 20px;
+  opacity: 1;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.btnAll {
+  display: flex;
+  font-size: small;
+}
+
+.cardDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: small;
+}
+
+.cardTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

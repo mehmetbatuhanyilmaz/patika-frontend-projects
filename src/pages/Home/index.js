@@ -1,10 +1,14 @@
 import React from "react";
 import "../../App.css";
 
+import "./home.css";
+
 export default function Home() {
+  //style={{ backgroundImage: "url(images/img-1.jpg)" }}
+
   return (
     <>
-      <h1 className="home"></h1>
+      <div className="home"></div>
     </>
   );
 }

@@ -1,18 +1,13 @@
-.navbartop {
-  background: linear-gradient(90deg 100%);
-  background-color: #000000;
-  height: 30px;
-  display: flex;
- 
-}
+
 .navbar {
   background: linear-gradient(90deg 100%);
   background-color: #ece9db;
-  height: 80px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
+ 
 }
 
 .navbar-logo {
@@ -24,10 +19,11 @@
   font-size: 2rem;
 }
 
-.fa-firstdraft {
+.bi-tsunami {
   margin-left: 0.5rem;
   font-size: 1.6rem;
 }
+
 
 .nav-menu {
   display: grid;
@@ -54,7 +50,7 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #465a70;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
