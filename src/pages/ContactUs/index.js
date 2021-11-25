@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
     
-   <div style={{backgroundImage: "url(images/iletisim.jpeg)"}}>
+   <div>
     <div className="contactdiv">
       
       <div className="contactinfodiv">
@@ -27,7 +27,7 @@ function Contact() {
           width="50%"
           height="300"
           title="samsunmap"
-          allowfullscreen=""
+          
           loading="lazy"
           
         ></iframe>

@@ -19,7 +19,7 @@
 }
 
 .home {
-
+  background-image: url("./images/kraftCo.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,11 +50,13 @@
 }
 
 .contact-us {
-  background-image: url("./images/urunler.jpeg");
-  background-position: center;
+  background-image: url("./images/iletisim.jpeg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   font-size: 100px;
+  min-height: 800px;
+  overflow: auto;
   
 }
 
