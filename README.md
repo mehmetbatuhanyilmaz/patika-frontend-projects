@@ -4,17 +4,17 @@
 
 ---
 
-Patika Front End Programı Mezuniyet Projesi
+Patika Front End Programı Mezuniyet Projesi 
 
 # Katkıda Bulunanlar
 
 ---
 
-- Mehmet Batuhan Yılmaz 👨🏻‍💻 [Batuhan](https://github.com/mehmetbatuhanyilmaz)  
+- Mehmet Batuhan Yılmaz 👨🏻‍💻 [Batuhan](https://github.com/mehmetbatuhanyilmaz)
 - Ogün Demirkıran 👨🏻‍💻 [Ogün](https://github.com/ogundemirkiran)
 
-
 ---
+
 # Proje Yapım Süreci
 
 ---
@@ -28,3 +28,4 @@ Patika Front End Programı Mezuniyet Projesi
 
 4. Dizin yapıları oluşturuldu Mockapi.io servisi kuruldu ve axios ile ilk veriler çekildi.
 5. Belirli çalışmalar yapıldı Pages alanları biçimlendirildi ve Mentor Hamza Kaya ile görüşülüp hatalar düzeltildi.
+6. Context yapısı kuruldu Products ve Basket Sayfaları tamamlandı.

@@ -1,3 +1,4 @@
+
 // import "./App.css";
 // import Mockapi from "./servis/Mockapi";
 
@@ -9,7 +10,7 @@
 //   );
 // }
 
-// export default App;
+// export default App; 
 
 import React from "react";
 import "./App.css";
@@ -20,12 +21,15 @@ import Products from "./pages/Products";
 import ContactUs from "./pages/ContactUs";
 import Basket from "./pages/Basket";
 import Favorites from "./pages/Favorites";
+
 import Footer from "./components/Footer/Footer"
+
 
 
 function App() {
   return (
     <>
+
     <div>
       <Navbar />
       <Routes>
@@ -39,6 +43,7 @@ function App() {
       <Footer/>
     </div>
     
+
     </>
   );
 }
