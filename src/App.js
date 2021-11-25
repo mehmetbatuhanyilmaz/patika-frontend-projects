@@ -22,6 +22,7 @@ import Basket from "./pages/Basket";
 import Favorites from "./pages/Favorites";
 import Footer from "./components/Footer/Footer"
 
+
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/basket" element={<Basket />} />
       </Routes>
+    
       <Footer/>
     </div>
     
