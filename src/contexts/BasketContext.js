@@ -4,16 +4,29 @@ const BasketContext = createContext();
 
 const BasketProvider = ({ children }) => {
   const [basketItems, setBasketItems] = useState([]);
-  const [favoritesItems, setFavoritesItems] = useState("");
+  const [favoritesItems, setFavoritesItems] = useState([]);
+
+  useEffect(() => {}, [basketItems]);
 
   const addToBasket = (item) => {
     setBasketItems((basketItems) => [item, ...basketItems]);
   };
 
-  useEffect(() => {}, [basketItems]);
+  const removeBasket = (item) => {
+    var listAfterDeletionBasket = basketItems.filter((res) => res.id !== item);
 
-  const removeBasket = (item) => {};
-  const addToFavorite = (item) => {};
+    setBasketItems(listAfterDeletionBasket);
+  };
+  const addToFavorite = (item) => {
+    setFavoritesItems((favoritesItems) => [item, ...favoritesItems]);
+  };
+  const removeFavorite = (item) => {
+    var listAfterDeletionFavorite = favoritesItems.filter(
+      (res) => res.id !== item
+    );
+
+    setFavoritesItems(listAfterDeletionFavorite);
+  };
 
   const values = {
     basketItems,
@@ -23,6 +36,7 @@ const BasketProvider = ({ children }) => {
     addToBasket,
     removeBasket,
     addToFavorite,
+    removeFavorite,
   };
 
   return (

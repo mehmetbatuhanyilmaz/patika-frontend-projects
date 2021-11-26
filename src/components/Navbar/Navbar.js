@@ -6,10 +6,9 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
- 
+
   return (
     <>
-      
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
           Kraft.co
@@ -68,7 +67,6 @@ function Navbar() {
                 fill="currentColor"
                 className="bi bi-heart-fill"
                 viewBox="0 0 16 16"
-                
               >
                 <path
                   fillRule="evenodd"
