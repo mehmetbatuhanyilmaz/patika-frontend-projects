@@ -64,6 +64,16 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  overflow: auto;
+}
+.favorites::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.favorites {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .basket {

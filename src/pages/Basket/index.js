@@ -1,10 +1,13 @@
+import { useEffect } from "react";
 import { useBasket } from "../../contexts/BasketContext";
 
 import "../../App.css";
 import "./style.css";
 
 export default function Basket() {
-  const { basketItems } = useBasket();
+  const { basketItems, removeBasket, addToFavorite } = useBasket();
+
+  useEffect(() => {}, [basketItems]);
 
   return (
     <>
@@ -45,13 +48,15 @@ export default function Basket() {
                       </div>
                       <div className="float-end">
                         <button
+                          onClick={() => addToFavorite(res)}
                           type="button"
                           className=" btn btn-outline-primary btn-sm mr-2"
                         >
                           Add to Favorites
                         </button>
                         <button
-                          type="button"
+                          onClick={() => removeBasket(res.id)}
+                          type="submit"
                           className="btn btn-outline-danger btn-sm ms-2"
                         >
                           Delete

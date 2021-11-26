@@ -14,8 +14,8 @@ function Card({ product }) {
         <p className="cardDescription">{res.description}</p>
         <p className="btnAll">
           <button onClick={() => addToBasket(res)}>Add </button>
-          <button onClick={removeBasket(res.id)}>Delete</button>
-          <button onClick={addToFavorite(res)}>Favorites</button>
+          <button onClick={() => removeBasket(res.id)}>Delete</button>
+          <button onClick={() => addToFavorite(res)}>Favorites</button>
         </p>
       </div>
     );

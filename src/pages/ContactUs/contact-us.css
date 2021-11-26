@@ -1,3 +1,5 @@
+/*style={{backgroundImage: "url(./src/images/kraftCo.jpeg)"}}*/
+
 .contactdiv {
   padding: 2rem;
   display: flex;
@@ -14,9 +16,10 @@
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
+  color: aliceblue;
   flex-direction: column;
   gap: 0.7rem;
-  background-color: blanchedalmond;
+  background-image: url("../../images/space.png");
   opacity: 85%;
 }
 .contactinfodiv h2 {
@@ -25,11 +28,11 @@
 }
 
 .contactmapdiv {
+  background-image: url("../../images/space.png");
   padding: 3rem 1rem;
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 50px;
-  background-color: blanchedalmond;
   opacity: 85%;
 }
 
@@ -46,7 +49,7 @@
   width: 40%;
   float: left;
   width: 350px;
-  height: 200px;
+  height: 180px;
   border: 1px solid #888267;
   margin-bottom: 10px;
 }

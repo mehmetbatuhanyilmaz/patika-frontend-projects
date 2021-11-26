@@ -1,13 +1,11 @@
 import React from "react";
 import "../../App.css";
 import "./contact-us.css";
-
+import image from "../../images/iletisim.jpeg";
 function Contact() {
-  //style={{ backgroundImage: "url(/images/img-4.jpg)"}}
-
   return (
     <>
-      <div className="contact-us">
+      <div style={{ backgroundImage: `url(${image})` }}>
         <div className="contactdiv">
           <div className="contactinfodiv">
             <h2>Contact Us</h2>
@@ -15,7 +13,7 @@ function Contact() {
               {" "}
               Kraft.co Clothes and Formal Wear company was developed in 2021 by
               Front End Developer M. Batuhan Yılmaz and Ogün Demirkıran with
-              their contributions Kodluyoruz ve Patika.dev , using React Js. ☺{" "}
+              their contributions Kodluyoruz and Patika.dev , using React Js. ☺{" "}
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,7 +33,6 @@ function Contact() {
               width="50%"
               height="300"
               title="samsunmap"
-              allowfullscreen=""
               loading="lazy"
             ></iframe>
 
