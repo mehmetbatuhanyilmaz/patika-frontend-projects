@@ -1,0 +1,124 @@
+/* .favoriteContainer {
+  display: inline-block;
+}
+
+.favoritesCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+  display: inline-block !important;
+  margin: 30px 20px;
+  opacity: 1;
+  font-size: 1rem;
+  cursor: pointer;
+  color: black;
+  border: none !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 450px;
+  cursor: default;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.hiddenElement {
+  color: black;
+  margin-top: -90px;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+}
+
+.hiddenPrice {
+  font-size: 20px;
+  font-weight: 900;
+  background-color: yellow;
+  padding: 50px 40px;
+  border-radius: 50%;
+  margin-left: -30px;
+}
+.hiddenAction {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  font-size: 40px;
+  margin-top: -45px;
+}
+.hiddenBasketBtn {
+  background-color: wheat;
+  border-radius: 50%;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.hiddenRemoveBtn {
+  background-color: wheat;
+  border-radius: 50%;
+  padding: 0px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.favoriteProductTitle {
+  font-size: 1.1rem;
+  margin-top: -72px;
+  background-color: white;
+  margin-left: 21px;
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+.favoriteContainer {
+  font-size: 1rem;
+  color: black;
+  font-weight: 800;
+}
+
+.favoriteCard {
+  border: none !important;
+  width: 295px;
+  height: 414px;
+  text-align: left;
+  cursor: default;
+}
+
+.favoritePrice {
+  background-color: yellow;
+  padding: 30px 17px;
+  border-radius: 50%;
+  border-bottom-left-radius: 50px;
+  font-size: 1.2rem;
+  margin-left: -30px;
+}
+
+.favoriteAction {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.favoriteBasketBtn {
+  background-color: wheat;
+  border-radius: 50%;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.favoriteRemoveBtn {
+  background-color: wheat;
+  border-radius: 50%;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
