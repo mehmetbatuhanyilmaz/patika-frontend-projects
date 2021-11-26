@@ -19,7 +19,6 @@ const BasketProvider = ({ children }) => {
   };
   const addToFavorite = (item) => {
     setFavoritesItems((favoritesItems) => [item, ...favoritesItems]);
-    console.log(favoritesItems);
   };
   const removeFavorite = (item) => {
     var listAfterDeletionFavorite = favoritesItems.filter(
