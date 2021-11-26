@@ -29,3 +29,4 @@ Patika Front End Programı Mezuniyet Projesi
 4. Dizin yapıları oluşturuldu Mockapi.io servisi kuruldu ve axios ile ilk veriler çekildi.
 5. Belirli çalışmalar yapıldı Pages alanları biçimlendirildi ve Mentor Hamza Kaya ile görüşülüp hatalar düzeltildi.
 6. Context yapısı kuruldu. Products ve Basket Sayfaları tamamlandı.
+7. Home Sayfası Carousel eklendi, Products sayfasına ürünler eklendi ve bu ürünleri Favorites ve Basket sayfalarına atıyacak fonksiyonlar tanımlandı, Contact Us sayfasına iletişim alanı eklendi.
