@@ -14,11 +14,11 @@ export default class extends React.Component {
       <>
         <div style={{ backgroundImage: `url(${image})` }}>
           <Carousel className="slaytResim">
-            <img src={Logo} />
-            <img src={Logo1} />
-            <img src={Logo2} />
-            <img src={Logo3} />
-            <img src={Logo4} />
+            <img className="homeImg" src={Logo} />
+            <img className="homeImg" src={Logo1} />
+            <img className="homeImg" src={Logo2} />
+            <img className="homeImg" src={Logo3} />
+            <img className="homeImg" src={Logo4} />
           </Carousel>
           <br />
           <br />
