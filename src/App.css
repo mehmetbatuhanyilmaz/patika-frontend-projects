@@ -20,7 +20,6 @@
 
 .home {
   background-image: url("./images/kraftCo.jpeg");
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,6 +42,7 @@
   display: none;
 }
 
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .products {
   -ms-overflow-style: none; /* IE and Edge */
@@ -51,10 +51,13 @@
 
 .contact-us {
   background-image: url("./images/iletisim.jpeg");
-  background-position: center;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   font-size: 100px;
+  min-height: 800px;
+  overflow: auto;
+  
 }
 
 .favorites {

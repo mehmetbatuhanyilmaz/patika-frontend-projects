@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useBasket } from "../../contexts/BasketContext";
+import { Link } from "react-router-dom";
+
 import "../../App.css";
 import "./style.css";
 
@@ -7,6 +9,7 @@ export default function Favorites() {
   const { favoritesItems, addToBasket, removeFavorite } = useBasket();
   const [isShown, setIsShown] = useState({ status: false, indexNumber: "" });
 
+  useEffect(() => {}, [isShown]);
   return (
     <>
       <div className="favorites">
@@ -16,9 +19,9 @@ export default function Favorites() {
               <div className="col" key={res.id}>
                 <div
                   className="card favoriteCard"
-                  onMouseEnter={() =>
-                    setIsShown({ status: true, indexNumber: index })
-                  }
+                  onMouseEnter={() => {
+                    setIsShown({ status: true, indexNumber: index });
+                  }}
                   onMouseLeave={() => setIsShown(false)}
                 >
                   <img
@@ -26,6 +29,7 @@ export default function Favorites() {
                     className="card-img-top"
                     alt={res.id}
                   />
+
                   <div className="card-img-overlay">
                     <span className="card-text favoritePrice">{res.price}</span>
                     {isShown.status && isShown.indexNumber === index && (
@@ -63,11 +67,13 @@ export default function Favorites() {
                       </span>
                     )}
                   </div>
-                  <div className="card-body">
-                    <h5 className="card-title fw-bold">
-                      <small>{res.title}</small>
-                    </h5>
-                  </div>
+                  <Link to={`/product/${res.id}`} className="favoriteLink">
+                    <div className="card-body">
+                      <h5 className="card-title fw-bold">
+                        <small>{res.title}</small>
+                      </h5>
+                    </div>
+                  </Link>
                 </div>
               </div>
             );

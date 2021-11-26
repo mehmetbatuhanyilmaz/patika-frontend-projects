@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "./home.css";
+
 import image from "../../images/kraftCo.jpeg";
 import Carousel from "nuka-carousel";
 import Logo from "../../images/Logo.jpg";
@@ -49,3 +50,4 @@ export default class extends React.Component {
     );
   }
 }
+
