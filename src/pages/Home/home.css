@@ -1,12 +1,8 @@
-
-
-*{
-    background-position: center;
+* {
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-
 
 .homeImg {
   width: 600px;

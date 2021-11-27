@@ -8,7 +8,7 @@ function Card({ product }) {
 
   return product.map((res) => {
     return (
-      <div className="card" key={res.id}>
+      <div className="card cardCard" key={res.id}>
         <Link to={`/product/${res.id}`} className="cardLink">
           <img src={`${res.image}/${res.id}`} alt={res.title} />
           <h3 className="cardTitle">{res.title}</h3>

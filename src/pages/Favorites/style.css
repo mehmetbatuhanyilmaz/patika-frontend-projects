@@ -29,13 +29,12 @@
 .favoriteCard {
   border: none !important;
   width: 295px;
-  height: 414px;
   text-align: left;
   cursor: default;
 }
 
 .favoritePrice {
-  background-color: yellow;
+  background-color: #ffff27;
   padding: 30px 17px;
   border-radius: 50%;
   border-bottom-left-radius: 50px;
@@ -52,14 +51,14 @@
 }
 
 .favoriteBasketBtn {
-  background-color: wheat;
+  background-color: #ffff27;
   border-radius: 50%;
   padding: 15px 20px;
   cursor: pointer;
   z-index: 9;
 }
 .favoriteRemoveBtn {
-  background-color: wheat;
+  background-color: #ffff27;
   border-radius: 50%;
   padding: 15px 20px;
   cursor: pointer;
@@ -73,4 +72,12 @@
 }
 .favoriteLink:hover {
   color: black;
+}
+
+.overlayBalloon {
+  overflow: hidden;
+}
+
+.favoriteImg {
+  height: 300px;
 }
