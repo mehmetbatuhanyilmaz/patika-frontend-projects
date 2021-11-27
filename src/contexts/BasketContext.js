@@ -3,13 +3,19 @@ import React, { useState, createContext, useContext, useEffect } from "react";
 const BasketContext = createContext();
 
 const BasketProvider = ({ children }) => {
+  const [product, setProduct] = useState("");
+
   const [basketItems, setBasketItems] = useState([]);
   const [favoritesItems, setFavoritesItems] = useState([]);
 
   useEffect(() => {}, [basketItems]);
 
   const addToBasket = (item) => {
-    setBasketItems((basketItems) => [item, ...basketItems]);
+    let basketControl = basketItems.find((res) => res.id === item.id);
+
+    if (basketControl === undefined) {
+      setBasketItems((basketItems) => [item, ...basketItems]);
+    }
   };
 
   const removeBasket = (item) => {
@@ -18,7 +24,11 @@ const BasketProvider = ({ children }) => {
     setBasketItems(listAfterDeletionBasket);
   };
   const addToFavorite = (item) => {
-    setFavoritesItems((favoritesItems) => [item, ...favoritesItems]);
+    let favoritesControl = favoritesItems.find((res) => res.id === item.id);
+
+    if (favoritesControl === undefined) {
+      setFavoritesItems((favoritesItems) => [item, ...favoritesItems]);
+    }
   };
   const removeFavorite = (item) => {
     var listAfterDeletionFavorite = favoritesItems.filter(
@@ -29,6 +39,8 @@ const BasketProvider = ({ children }) => {
   };
 
   const values = {
+    product,
+    setProduct,
     basketItems,
     setBasketItems,
     favoritesItems,
