@@ -63,3 +63,8 @@
   -webkit-box-orient: vertical;
 }
 
+.cardLink {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
