@@ -49,6 +49,7 @@
   background-color: #465a70;
   border-radius: 4px;
   transition: all 0.2s ease-out;
+  color: white;
 }
 
 .fa-bars {
