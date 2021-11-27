@@ -26,29 +26,31 @@ export default function Basket() {
                       key={res.id}
                       className="row  rounded-3 mt-3 bg-light p-2"
                     >
-                      <div className="col-3">
+                      <div className="col col-md-2">
                         <Link to={`/product/${res.id}`} className="basketLink">
                           <img
                             src={`${res.image}/${res.id}`}
                             height="160px"
                             width="130"
-                            className="rounded-3"
+                            className="rounded-3 float-start"
                           ></img>
                         </Link>
                       </div>
-                      <div className="col-9">
-                        <div className="fw-bold">
-                          <b>{res.price}TL</b>
+                      <div className="col col-md-10 ">
+                        <div className="text-start ">
+                          <div className="fw-boldt">
+                            <b>{res.price}TL</b>
+                          </div>
+                          <div className="mt-1">
+                            <b> {res.title} </b>
+                          </div>
+                          <div className="mt-2 basketDescription">
+                            <p>
+                              <small>{res.description}</small>
+                            </p>
+                          </div>
                         </div>
-                        <div className="mt-1">
-                          <b> {res.title} </b>
-                        </div>
-                        <div className="mt-2 basketDescription">
-                          <p>
-                            <small>{res.description}</small>
-                          </p>
-                        </div>
-                        <div className="float-end">
+                        <div className="float-end ">
                           <button
                             onClick={() => addToFavorite(res)}
                             type="button"
