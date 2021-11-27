@@ -86,8 +86,9 @@ const { favoritesItems, addToBasket, removeFavorite } = useBasket();
             })}
           </div>
         </div>
-      </div></div>
-     </div>
+      </div>
+      
+     
      </>
 );
 }
