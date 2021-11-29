@@ -1,0 +1,16 @@
+.alertsLoc {
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  z-index: 99;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.alertStyle {
+  border-radius: 0px !important;
+  border-bottom-left-radius: 60px !important;
+  padding: 0px 5px 0px 30px !important;
+  margin: 0px !important;
+}

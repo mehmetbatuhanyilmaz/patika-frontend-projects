@@ -25,7 +25,7 @@ function ProductDetail() {
                 alt="..."
               />
             </div>
-            <div className="col">
+            <div className="col ">
               <h1 className="mt-5 fw-bold">{ProductDetailData.title}</h1>
               <h2 className="mt-5 fw-bold"> {ProductDetailData.price}TL </h2>
               <p className="mt-5 fw-bold">

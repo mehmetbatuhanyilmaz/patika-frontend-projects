@@ -81,3 +81,8 @@
 .favoriteImg {
   height: 300px;
 }
+
+.favoriteBottomCard {
+  background-color: white;
+  width: 295px;
+}

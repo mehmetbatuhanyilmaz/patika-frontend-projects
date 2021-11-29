@@ -16,7 +16,7 @@ const { favoritesItems, addToBasket, removeFavorite } = useBasket();
 
       <div className="favorites ">
         <div className="container">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4 favoriteContainer ">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-4 g-4 favoriteContainer ">
             {favoritesItems.map((res, index) => {
               return (
                 <div className="col" key={res.id}>
@@ -73,12 +73,13 @@ const { favoritesItems, addToBasket, removeFavorite } = useBasket();
                         </span>
                       )}
                     </div>
+                  </div>
+
+                  <div className="card-body favoriteBottomCard ">
                     <Link to={`/product/${res.id}`} className="favoriteLink">
-                      <div className="card-body">
-                        <h5 className="card-title fw-bold">
-                          <small>{res.title}</small>
-                        </h5>
-                      </div>
+                      <h5 className="card-title fw-bold">
+                        <small>{res.title}</small>
+                      </h5>
                     </Link>
                   </div>
                 </div>
