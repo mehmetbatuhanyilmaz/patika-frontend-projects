@@ -3,6 +3,7 @@
   margin-top: 0px;
   padding: 0;
   font-family: "PT Sans", sans-serif;
+  position: relative;
 }
 
 .home,
@@ -42,7 +43,6 @@
   display: none;
 }
 
-
 /* Hide scrollbar for IE, Edge and Firefox */
 .products {
   -ms-overflow-style: none; /* IE and Edge */
@@ -57,7 +57,6 @@
   font-size: 100px;
   min-height: 800px;
   overflow: auto;
-  
 }
 
 .favorites {

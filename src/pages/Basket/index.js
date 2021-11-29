@@ -71,13 +71,13 @@ export default function Basket() {
                   );
                 })}
               </div>
-              <div className="col-md-4  mt-4">
+              <div className="col-md-4  mt-4 text-start">
                 <div className="ms-1 fw-bold  ">
                   <h3>TOTAL</h3>
                 </div>
                 <hr />
                 {basketItems.length > 0 && (
-                  <div className="bg-light p-3 rounded-3 sticky-top">
+                  <div className="bg-light p-3 rounded-3 sticky-top ">
                     <div className="subTotal">
                       <b>Sub-Total:</b>
                       <b className="fs-4 text">

@@ -7,6 +7,8 @@ import Products from "./pages/Products";
 import ContactUs from "./pages/ContactUs";
 import Basket from "./pages/Basket";
 import Favorites from "./pages/Favorites";
+import Alerts from "./components/Alerts";
+
 import ProductDetail from "./pages/ProductDetail";
 import Error404 from "./pages/Error404";
 
@@ -17,6 +19,8 @@ function App() {
     <>
       <div>
         <Navbar />
+        <Alerts />
+
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/products" element={<Products />} />
