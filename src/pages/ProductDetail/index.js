@@ -16,7 +16,7 @@ function ProductDetail() {
     <>
       {ProductDetailData === "" && <div>Lütfen Ürün Seçiniz</div>}
       {ProductDetailData !== "" && (
-        <div className="container">
+        <div className="container" style={{marginBottom: 75}}>
           <div className="row row-cols-1 row-cols-md-2">
             <div className="col">
               <img
