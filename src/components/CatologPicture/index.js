@@ -30,8 +30,10 @@ function CatalogPicture() {
         <div className="row">
           <div className="col-md-10">
             <div className="row homeLongContent">
-              <div className="col ">
-                <div className="card-group mt-3 mb-2 me-5 ms-5">
+
+
+              <div className="col " style={{marginTop:-20}, {marginBottom: 80}}>
+                <div className="card-group mt-3 mb-2 me-5 ms-5" >
                   <Link to="/products" className="card">
                     <div>
                       <img
@@ -40,7 +42,7 @@ function CatalogPicture() {
                         alt="girlPicture"
                       />
                       <div className=" card-img-overlay card-body homePeople ">
-                        <h5 className="card-title ">WOMENS</h5>
+                        <h5 className="card-title ">WOMEN</h5>
                       </div>
                     </div>
                   </Link>
@@ -53,12 +55,12 @@ function CatalogPicture() {
                         alt="malePicture"
                       />
                       <div className=" card-img-overlay card-body homePeople">
-                        <h5 className="card-title ">MENS</h5>
+                        <h5 className="card-title ">MEN</h5>
                       </div>
                     </div>
                   </Link>
 
-                  <Link to="/products" className="card ms-2">
+                  <Link to="/products" className="card ms-2" >
                     <div>
                       <img
                         src={kidPicture}
@@ -66,39 +68,17 @@ function CatalogPicture() {
                         alt="childPicture"
                       />
                       <div className=" card-img-overlay card-body homePeople">
-                        <h5 className="card-title ">KİDS</h5>
+                        <h5 className="card-title ">KIDS</h5>
                       </div>
                     </div>
                   </Link>
+                  
                 </div>
               </div>
-              <div className="row p-0 mt-2">
-                <div className="col-8 p-0">
-                  <div className="card bg-dark text-white homeLongCard">
-                    <img
-                      src={manlong3}
-                      className="card-img homeLongImg"
-                      alt="..."
-                    />
-                    <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-4  ">
-                  <div className="card bg-dark text-white homeShortCard">
-                    <img
-                      src={womenshort2}
-                      className="card-img homeShortImg"
-                      alt="..."
-                    />
-                    <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row p-0 mt-2">
+
+
+
+              <div className="row p-0 mt-2" style={{opacity:0.8}}>
                 <div className="col-4 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
@@ -107,7 +87,7 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
@@ -119,12 +99,17 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="row p-0 mt-2">
+
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              
+
+
+              <div className="row p-0 mt-2" style={{opacity:0.7}}>
                 <div className="col-8 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
@@ -133,7 +118,7 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
@@ -145,12 +130,14 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="row p-0 mt-2">
+
+
+              <div className="row p-0 mt-2" style={{opacity:0.8}}>
                 <div className="col-4 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
@@ -159,7 +146,7 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
@@ -171,14 +158,47 @@ function CatalogPicture() {
                       alt="..."
                     />
                     <div className="card-img-overlay">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title"></h5>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div className="row p-0 mt-2 " style={{marginBottom: 50, opacity:0.7}} > 
+                <div className="col-8 p-0">
+                  <div className="card bg-dark text-white homeLongCard">
+                    <img
+                      src={manlong3}
+                      className="card-img homeLongImg"
+                      alt="..."
+                    />
+                    <div className="card-img-overlay">
+                      <h5 className="card-title"></h5>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-4  ">
+                  <div className="card bg-dark text-white homeShortCard">
+                    <img
+                      src={womenshort2}
+                      className="card-img homeShortImg"
+                      alt="..."
+                    />
+                    <div className="card-img-overlay">
+                      <h5 className="card-title"></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
             </div>
           </div>
-          <div className="col-md-2 p-0">
+
+
+
+          <div className="col-md-2 p-0" style={{opacity:0.7}}>
             <div className="smallSlide mt-3">
               {product !== "" &&
                 product.map((res) => {

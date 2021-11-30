@@ -1,15 +1,12 @@
 .footer {
-  background: linear-gradient(90deg 100%);
+  
   background-color: #ece9db;
-  height: 50px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  z-index: auto;
-  margin-bottom: 0;
-  left: 8px;
-  right: 8px;
+  
 }
 .foot-menu {
   display: grid;
@@ -19,8 +16,7 @@
   text-align: center;
   width: 70vw;
   justify-content: end;
-  margin-right: 1rem;
-  margin-left: 200px;
+ 
 }
 
 .footer-logo {
@@ -28,8 +24,7 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 1rem;
-  position: fixed;
-  left: 170px;
+  left: 10px;
 }
 
 .foot-item {

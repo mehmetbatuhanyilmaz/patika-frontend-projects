@@ -89,7 +89,7 @@ const { favoritesItems, addToBasket, removeFavorite } = useBasket();
         </div>
       </div>
       
-     
+      <br/>
      </>
 );
 }

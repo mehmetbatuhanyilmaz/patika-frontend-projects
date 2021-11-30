@@ -8,11 +8,12 @@
 .smallSlide {
   display: flex;
   flex-direction: column;
-  max-height: 1892px;
+  max-height: 2260px;
   overflow: overlay;
-  border: 1px solid black;
+  border: none;
   padding: 0px 5px 5px 0px;
 }
+
 
 @media only screen and (max-width: 993px) {
   .smallSlide {
