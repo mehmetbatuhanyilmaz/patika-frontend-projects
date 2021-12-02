@@ -38,4 +38,4 @@ Patika Front End Programı Mezuniyet Projesi
 
 
  <img alt="gif" src="./src/gif/ReactApp.gif" 
-        style="float: left; width:650px; height:500px;" />
+        style="float: left; width:600px; height:400px;" />
