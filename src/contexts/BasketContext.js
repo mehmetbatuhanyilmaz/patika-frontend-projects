@@ -5,8 +5,21 @@ const BasketContext = createContext();
 const BasketProvider = ({ children }) => {
   const [product, setProduct] = useState("");
 
-  const [basketItems, setBasketItems] = useState([]);
-  const [favoritesItems, setFavoritesItems] = useState([]);
+
+  const [basketItems, setBasketItems] = useState(
+    JSON.parse(localStorage.getItem("basket"))
+      ? JSON.parse(localStorage.getItem("basket"))
+      : []
+
+    // JSON.parse(localStorage.getItem("basket")) === null &&  []
+    //  JSON.parse(localStorage.getItem("basket"))
+  );
+  const [favoritesItems, setFavoritesItems] = useState(
+    JSON.parse(localStorage.getItem("favorites"))
+      ? JSON.parse(localStorage.getItem("favorites"))
+      : []
+  );
+
 
   const [alert, setAlert] = useState({});
 
@@ -83,6 +96,14 @@ const BasketProvider = ({ children }) => {
 
     alertTime();
   };
+
+  useEffect(() => {
+    localStorage.setItem("basket", JSON.stringify(basketItems));
+  }, [basketItems]);
+
+  useEffect(() => {
+    localStorage.setItem("favorites", JSON.stringify(favoritesItems));
+  }, [favoritesItems]);
 
   const values = {
     product,

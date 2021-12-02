@@ -30,5 +30,5 @@ Patika Front End Programı Mezuniyet Projesi
 5. Belirli çalışmalar yapıldı Pages alanları biçimlendirildi ve Mentor Hamza Kaya ile görüşülüp hatalar düzeltildi.
 6. Context yapısı kuruldu. Products ve Basket Sayfaları tamamlandı.
 7. Home Sayfası Carousel eklendi, Products sayfasına ürünler eklendi ve bu ürünleri Favorites ve Basket sayfalarına atıyacak fonksiyonlar tanımlandı, Contact Us sayfasına iletişim alanı eklendi.
-8. Ürün Detay Sayfası ve Error Sayfası yapıldı. Aynı ürün sepete ve favorilere birkez eklenebilecek şekilde düzeltildi. 
-
+8. Ürün Detay Sayfası ve Error Sayfası yapıldı. Aynı ürün sepete ve favorilere birkez eklenebilecek şekilde düzeltildi.
+9. Buttonlar aktif hale getirildi. Api link güzlendi. LocalStorage oluşturuldu.

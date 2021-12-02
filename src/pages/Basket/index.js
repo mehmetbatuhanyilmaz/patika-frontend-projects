@@ -28,7 +28,9 @@ export default function Basket() {
                       key={res.id}
                       className="row  rounded-3 mt-3 bg-light p-2"
                     >
-                      <div className="col col-md-2">
+
+                      <div className="col col-md-4 col-xxl-2">
+
                         <Link to={`/product/${res.id}`} className="basketLink">
                           <img
                             src={`${res.image}/${res.id}`}
@@ -38,7 +40,9 @@ export default function Basket() {
                           ></img>
                         </Link>
                       </div>
-                      <div className="col col-md-10 ">
+
+                      <div className="col col-md-8   col-xxl-10 ">
+
                         <div className="text-start ">
                           <div className="fw-boldt">
                             <b>{res.price}TL</b>

@@ -17,12 +17,15 @@
 
 @media only screen and (max-width: 993px) {
   .smallSlide {
-    height: 1770px;
+    height: 2135px;
+
   }
 }
 @media only screen and (min-width: 994px) and (max-width: 1200px) {
   .smallSlide {
-    height: 1820px;
+
+    height: 2185px;
+
   }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {

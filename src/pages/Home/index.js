@@ -4,7 +4,6 @@ import { useBasket } from "../../contexts/BasketContext";
 
 import Carousel from "nuka-carousel";
 import CatalogPicture from "../../components/CatologPicture";
-import BestSellers from "../../components/BestSellers";
 
 import image from "../../images/kraftCo.jpeg";
 import Logo from "../../images/Logo.jpg";
@@ -38,7 +37,7 @@ function Home() {
           <img className="homeImg" src={Logo4} />
         </Carousel>
         <CatalogPicture />
-        <BestSellers />
+
       </div>
     </>
   );
