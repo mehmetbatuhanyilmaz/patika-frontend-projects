@@ -2,7 +2,7 @@
 
 # Yetiştirme Programı Mezuniyet Projesi //
 
-Netlify Link: https://patika-frontend-projects-mehmetbatuhanyilmaz-ogundemirkiran.netlify.app/basket
+Netlify Link: https://patika-frontend-projects-mehmetbatuhanyilmaz-ogundemirkiran.netlify.app/
 
 ---
 
