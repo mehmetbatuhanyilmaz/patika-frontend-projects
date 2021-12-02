@@ -6,8 +6,11 @@
 .loadingIcon {
   text-align: center;
   margin-top: 50px;
+  
 }
 
 .cardsImg {
-  width: 400px;
+  margin-top: 250px;
+  width: 150px;
+  height: 150px;
 }
