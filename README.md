@@ -25,7 +25,7 @@ Patika Front End Programı Mezuniyet Projesi
 2. Proje için Photoshoptan Şema çalışması yapıldı. <br/>
 
 <img alt="photoshopsheme" src="./src/images/E-Commerce_Deneme.jpg" 
-        style="float: left; width:600px; height:400px;" />
+        style="float: left; width:650px; height:400px;" />
 
 3. Ortak Repo açılıp takım arkadaşları tarafından Forklanıp Proje Component yapısı karar verildi.
 4. Dizin yapıları oluşturuldu Mockapi.io servisi kuruldu ve axios ile ilk veriler çekildi.
@@ -37,4 +37,4 @@ Patika Front End Programı Mezuniyet Projesi
 10. Proje tamamlandı ve Netlify üzerinden belirli sosyal platformlarda ve Patika.dev üzerinden paylaşıldı.
 <br/>
 <img alt="gif" src="./src/gif/ReactApp.gif" 
-        style="float: left; width:600px; height:400px;" />
+        style="float: left; width:650px; height:400px;" />
