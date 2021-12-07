@@ -37,4 +37,4 @@ Patika Front End Programı Mezuniyet Projesi
 10. Proje tamamlandı ve Netlify üzerinden belirli sosyal platformlarda ve Patika.dev üzerinden paylaşıldı.
 <br/>
 <img alt="gif" src="./src/gif/ReactApp.gif" 
-        style="float: left; width:650px; height:400px;" />
+        style="float: left; width:650px; height:400px;" /> 
