@@ -18,6 +18,15 @@ import manlong3 from "../../images/manlong3.jpg";
 import manshort1 from "../../images/manshort1.jpg";
 import manshort2 from "../../images/manshort2.jpg";
 import manshort3 from "../../images/manshort3.jpg";
+import resim1 from "../../images/resim01.jpeg";
+import resim2 from "../../images/resim02.jpeg";
+import resim3 from "../../images/resim03.jpeg";
+import resim4 from "../../images/resim04.jpeg";
+import resim5 from "../../images/resim05.jpeg";
+import resim6 from "../../images/resim06.jpeg";
+import resim7 from "../../images/resim07.jpeg";
+import resim8 from "../../images/resim08.jpeg";
+import resim9 from "../../images/resim09.jpeg";
 
 import "./style.css";
 
@@ -30,10 +39,11 @@ function CatalogPicture() {
         <div className="row">
           <div className="col-md-10">
             <div className="row homeLongContent">
-
-
-              <div className="col " style={{marginTop:-20}, {marginBottom: 80}}>
-                <div className="card-group mt-3 mb-2 me-5 ms-5" >
+              <div
+                className="col "
+                style={({ marginTop: -20 }, { marginBottom: 80 })}
+              >
+                <div className="card-group mt-3 mb-2 me-5 ms-5">
                   <Link to="/products" className="card">
                     <div>
                       <img
@@ -60,7 +70,7 @@ function CatalogPicture() {
                     </div>
                   </Link>
 
-                  <Link to="/products" className="card ms-2" >
+                  <Link to="/products" className="card ms-2">
                     <div>
                       <img
                         src={kidPicture}
@@ -72,13 +82,10 @@ function CatalogPicture() {
                       </div>
                     </div>
                   </Link>
-                  
                 </div>
               </div>
 
-
-
-              <div className="row p-0 mt-2" style={{opacity:0.8}}>
+              <div className="row p-0 mt-2" style={{ opacity: 1 }}>
                 <div className="col-4 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
@@ -105,15 +112,24 @@ function CatalogPicture() {
                 </div>
               </div>
 
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-              
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
 
-
-              <div className="row p-0 mt-2" style={{opacity:0.7}}>
+              <div className="row p-0 mt-2" style={{ opacity: 1 }}>
                 <div className="col-8 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
-                      src={manlong2}
+                      src={resim7}
                       className="card-img homeLongImg"
                       alt="..."
                     />
@@ -125,7 +141,7 @@ function CatalogPicture() {
                 <div className="col-4  ">
                   <div className="card bg-dark text-white homeShortCard">
                     <img
-                      src={manshort3}
+                      src={resim3}
                       className="card-img homeShortImg"
                       alt="..."
                     />
@@ -136,8 +152,7 @@ function CatalogPicture() {
                 </div>
               </div>
 
-
-              <div className="row p-0 mt-2" style={{opacity:0.8}}>
+              <div className="row p-0 mt-2" style={{ opacity: 1 }}>
                 <div className="col-4 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
@@ -153,7 +168,7 @@ function CatalogPicture() {
                 <div className="col-8">
                   <div className="card bg-dark text-white homeShortCard">
                     <img
-                      src={womenlong3}
+                      src={resim9}
                       className="card-img homeShortImg"
                       alt="..."
                     />
@@ -164,11 +179,14 @@ function CatalogPicture() {
                 </div>
               </div>
 
-              <div className="row p-0 mt-2 " style={{marginBottom: 50, opacity:0.7}} > 
+              <div
+                className="row p-0 mt-2 "
+                style={{ marginBottom: 50, opacity: 1 }}
+              >
                 <div className="col-8 p-0">
                   <div className="card bg-dark text-white homeLongCard">
                     <img
-                      src={manlong3}
+                      src={resim6}
                       className="card-img homeLongImg"
                       alt="..."
                     />
@@ -190,15 +208,10 @@ function CatalogPicture() {
                   </div>
                 </div>
               </div>
-
-
-
             </div>
           </div>
 
-
-
-          <div className="col-md-2 p-0" style={{opacity:0.7}}>
+          <div className="col-md-2 p-0" style={{ opacity: 0.9 }}>
             <div className="smallSlide mt-3">
               {product !== "" &&
                 product.map((res) => {
