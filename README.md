@@ -1,4 +1,4 @@
-# Patika.dev - İSMEK // Front End Nitelikli Bilişim Uzmanı
+# Patika.dev // Front End Nitelikli Bilişim Uzmanı
 
 # Yetiştirme Programı Mezuniyet Projesi //
 
